@@ -1,0 +1,30 @@
+/* Custom CSS styles for Weather Dashboard */
+
+/* Center the weather dashboard */
+.weather-dashboard {
+    /* text-align: center; */
+}
+  
+/* Style the search container */
+.search-container {
+    margin-bottom: 20px;
+}
+
+/* Style weather cards */
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin-bottom: 20px;
+}
+
+/* Style weather info */
+.weather-info {
+    margin-top: 20px;
+}
+  
+/* Style forecast items */
+.forecast-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 10px;
+}
+  
+/* Add more custom styles as needed */
