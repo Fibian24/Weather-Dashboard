@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ae947b4311.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="weather-dashboard mt-5">
+            <div class="search-container mb-3">
+                <input type="text" class="form-control rounded-pill" id="location-input" placeholder="Enter location">
+                <button class="btn btn-primary ml-2 rounded-pill m-3" id="search-btn">Search</button>
+            </div>
+            <div class="current-weather card mb-3 rounded">
+                <div class="card-body">
+                    <h5 class="card-title">Current Weather</h5>
+                    <div id="current-weather-info" class="weather-info ">
+                        <!-- Current weather data will be displayed here -->
+                    </div>
+                </div>
+            </div>
+            <div class="forecast card rounded">
+                <div class="card-body">
+                    <h5 class="card-title">Forecast</h5>
+                    <div id="forecast-info" class="weather-info d-flex">
+                        <!-- Forecast data will be displayed here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Include custom JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
